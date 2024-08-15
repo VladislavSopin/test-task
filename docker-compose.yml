@@ -1,0 +1,22 @@
+services:
+  postgres:
+    image: postgres:15.1
+    container_name: calendar
+    environment:
+      POSTGRES_DB: ${PG_DB}
+      POSTGRES_USER: ${PG_USER}
+      POSTGRES_PASSWORD: ${PG_PASSWORD}
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - ${PG_PORT}:${PG_PORT}
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4:8.9
+    environment:
+      PGADMIN_DEFAULT_EMAIL: 'hunter-134@mail.ru'
+      PGADMIN_DEFAULT_PASSWORD: '123'
+    restart: unless-stopped
+    ports:
+      - '5050:80'
