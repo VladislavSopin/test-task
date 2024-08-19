@@ -2,7 +2,8 @@
 /dist
 /node_modules
 /build
-
+/results1.yaml 
+/results2.yaml 
 # Logs
 logs
 *.log

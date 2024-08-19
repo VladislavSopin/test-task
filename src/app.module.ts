@@ -1,24 +1,27 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { ConfigModule } from '@nestjs/config';
+import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { CalendarModule } from './calendar/calendar.module';
+import { getTypeOrmConfig } from './DataSource';
+import { DayModule } from './calendar/day/day.module';
+import { HolidayModule } from './calendar/holiday/holiday.module';
+import { WorkingWeekendModule } from './calendar/working-weekend/working-weekend.module';
+import { WorkingHourModule } from './calendar/working-hour/working-hour.module';
 
 @Module({
   imports: [
     ConfigModule.forRoot(), // Подключение конфигурации из .env файла
-    TypeOrmModule.forRoot({
-      type: 'postgres',
-      host: process.env.PG_HOST,
-      port: parseInt(process.env.PG_PORT),
-      username: process.env.PG_USER,
-      password: process.env.PG_PASSWORD,
-      database: process.env.PG_DB,
-      autoLoadEntities: true,
-      synchronize: true, // Для автоматической синхронизации схемы базы данных с моделями (только для разработки)
+    TypeOrmModule.forRootAsync({
+      imports: [ConfigModule],
+      inject: [ConfigService],
+      useFactory: getTypeOrmConfig,
     }),
-    CalendarModule, // Подключаем модуль Calendar
+    // Подключаем модули
+    DayModule,
+    HolidayModule,
+    WorkingWeekendModule,
+    WorkingHourModule,
   ],
   controllers: [AppController],
   providers: [AppService],

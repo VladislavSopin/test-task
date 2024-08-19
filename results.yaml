@@ -1,16 +1,491 @@
-march2023Hours:
-  year: 2023
-  month: 3
-  hours: 175
-april2023Hours:
-  year: 2023
-  month: 4
-  hours: 160
-may2023Hours:
-  year: 2023
-  month: 5
-  hours: 167
-april2023ToMarch2024Hours:
-  year: 2023
-  month: 4
-  hours: 160
+results:
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-01-01'
+        description: Новогодние каникулы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-01-02'
+        description: Новогодние каникулы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-01-03'
+        description: Новогодние каникулы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-01-04'
+        description: Новогодние каникулы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-01-05'
+        description: Новогодние каникулы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-01-06'
+        description: Новогодние каникулы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-01-07'
+        description: Рождество Христово
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-01-08'
+        description: Новогодние каникулы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-02-23'
+        description: День защитника Отечества
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-02-24'
+        description: Перенесенный праздничный день 1 января
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-03-08'
+        description: Международный женский день
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-05-01'
+        description: Праздник Весны и Труда
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-05-08'
+        description: Перенесенный праздничный день 8 января
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-05-09'
+        description: День Победы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-06-12'
+        description: День России
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-11-04'
+        description: День народного единства
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2023-11-06'
+        description: Выходной день за 4 ноября
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Количество рабочих часов в апреле 2023
+    response:
+      data:
+        date: 2023-04
+      result:
+        - hours: 168
+  - request_description: Количество рабочих часов в мае 2023
+    response:
+      data:
+        date: 2023-05
+      result:
+        - hours: 160
+  - request_description: Количество рабочих часов с апреля по март 2024
+    response:
+      data:
+        date: 2023-04
+        endDate: 2024-03
+      result:
+        totalHours: 2039
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-01-01'
+        description: Новогодние каникулы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-01-02'
+        description: Новогодние каникулы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-01-03'
+        description: Новогодние каникулы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-01-04'
+        description: Новогодние каникулы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-01-05'
+        description: Новогодние каникулы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-01-06'
+        description: Новогодние каникулы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-01-07'
+        description: Рождество Христово
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-01-08'
+        description: Новогодние каникулы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-02-23'
+        description: День защитника Отечества
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-03-08'
+        description: Международный женский день
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-04-29'
+        description: Перенесенный праздничный день 27 апреля
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-04-30'
+        description: Перенесенный праздничный день 2 ноября
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-05-01'
+        description: Праздник Весны и Труда
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-05-09'
+        description: День Победы
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-05-10'
+        description: Перенесенный праздничный день 6 января
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-06-12'
+        description: День России
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-11-04'
+        description: День народного единства
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-12-31'
+        description: Перенесенный праздничный день 7 января
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-12-30'
+        description: Перенесенный праздничный день 28 декабря
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление перенесенного рабочего дня
+    response:
+      data:
+        date: '2024-04-27'
+        description: Рабочая суббота
+      result:
+        status: success
+        message: Working weekend added
+  - request_description: Добавление перенесенного рабочего дня
+    response:
+      data:
+        date: '2024-11-02'
+        description: Рабочая суббота
+      result:
+        status: success
+        message: Working weekend added
+  - request_description: Количество рабочих часов в апреле 2024
+    response:
+      data:
+        date: 2024-04
+      result:
+        - hours: 168
+  - request_description: Количество рабочих часов в мае 2024
+    response:
+      data:
+        date: 2024-05
+      result:
+        - hours: 159
+  - request_description: Количество рабочих часов с апреля по март 2024
+    response:
+      data:
+        date: 2023-04
+        endDate: 2024-03
+      result:
+        totalHours: 1973
+  - request_description: Удаление праздника
+    response:
+      data:
+        date: '2024-04-29'
+      result:
+        status: success
+        message: Holiday removed
+  - request_description: Удаление праздника
+    response:
+      data:
+        date: '2024-04-30'
+      result:
+        status: success
+        message: Holiday removed
+  - request_description: Удаление праздника
+    response:
+      data:
+        date: '2024-05-01'
+      result:
+        status: success
+        message: Holiday removed
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-05-06'
+        description: Праздничный день
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-05-07'
+        description: Праздничный день
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Добавление праздника
+    response:
+      data:
+        date: '2024-05-08'
+        description: Праздничный день
+      result:
+        status: success
+        message: Holiday added
+  - request_description: Количество рабочих часов в апреле 2024
+    response:
+      data:
+        date: 2024-04
+      result:
+        - hours: 183
+  - request_description: Количество рабочих часов в мае 2024
+    response:
+      data:
+        date: 2024-05
+      result:
+        - hours: 144
+  - request_description: Количество рабочих часов с апреля по март 2024
+    response:
+      data:
+        date: 2023-04
+        endDate: 2024-03
+      result:
+        totalHours: 1973
+  - request_description: Получение списка праздников
+    response:
+      data: {}
+      result:
+        - date: '2023-01-01'
+          description: Новогодние каникулы
+        - date: '2023-01-02'
+          description: Новогодние каникулы
+        - date: '2023-01-03'
+          description: Новогодние каникулы
+        - date: '2023-01-04'
+          description: Новогодние каникулы
+        - date: '2023-01-05'
+          description: Новогодние каникулы
+        - date: '2023-01-06'
+          description: Новогодние каникулы
+        - date: '2023-01-07'
+          description: Рождество Христово
+        - date: '2023-01-08'
+          description: Новогодние каникулы
+        - date: '2023-02-23'
+          description: День защитника Отечества
+        - date: '2023-02-24'
+          description: Перенесенный праздничный день 1 января
+        - date: '2023-03-08'
+          description: Международный женский день
+        - date: '2023-05-01'
+          description: Праздник Весны и Труда
+        - date: '2023-05-08'
+          description: Перенесенный праздничный день 8 января
+        - date: '2023-05-09'
+          description: День Победы
+        - date: '2023-06-12'
+          description: День России
+        - date: '2023-11-04'
+          description: День народного единства
+        - date: '2023-11-06'
+          description: Выходной день за 4 ноября
+        - date: '2024-01-01'
+          description: Новогодние каникулы
+        - date: '2024-01-02'
+          description: Новогодние каникулы
+        - date: '2024-01-03'
+          description: Новогодние каникулы
+        - date: '2024-01-04'
+          description: Новогодние каникулы
+        - date: '2024-01-05'
+          description: Новогодние каникулы
+        - date: '2024-01-06'
+          description: Новогодние каникулы
+        - date: '2024-01-07'
+          description: Рождество Христово
+        - date: '2024-01-08'
+          description: Новогодние каникулы
+        - date: '2024-02-23'
+          description: День защитника Отечества
+        - date: '2024-03-08'
+          description: Международный женский день
+        - date: '2024-05-09'
+          description: День Победы
+        - date: '2024-05-10'
+          description: Перенесенный праздничный день 6 января
+        - date: '2024-06-12'
+          description: День России
+        - date: '2024-11-04'
+          description: День народного единства
+        - date: '2024-12-31'
+          description: Перенесенный праздничный день 7 января
+        - date: '2024-12-30'
+          description: Перенесенный праздничный день 28 декабря
+        - date: '2024-05-06'
+          description: Праздничный день
+        - date: '2024-05-07'
+          description: Праздничный день
+        - date: '2024-05-08'
+          description: Праздничный день
+  - request_description: Получение списка перенесенных рабочих дней
+    response:
+      data: {}
+      result:
+        - date: '2024-04-27'
+          description: Рабочая суббота
+        - date: '2024-11-02'
+          description: Рабочая суббота
